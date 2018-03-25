@@ -1,64 +1,70 @@
+
 .logo{
+  text-align: center;
   background-color: orange;
-  width: 100%;
-  height: 400px;
-  text-align: center;
-  background-image: url("../images/landing.jpg") no-repeat;
-}
-#text{
-  color: white;
-  font-size: 20px;
-}
-.images{
-  text-align: center;
-  height: 210px;
   width: auto;
-  background-color: blue;
+  height: 400px;
 }
-#break{
-  width: 20px;
-  height: 100px;
-  float: left;
-  border-right: 0px;
+#logot{
+  color: white;
+  font-size: 42px:
 }
-#dinn{
-  width: 20px;
-  height: 100px;
-  float: none;
-  border-left: 0px;
+.button{
+  display: flex;
+  justify-content: space-around;
 }
-#dinn{
-  width: 20px;
-  height: 100px;
-  float: none;
-  border-left: 0px;
-  border-right: 0px;
+.container2{
+  display: flex;
+  justify-content: space-around;
+}
+.container3{
+  display: inline-table;
+  justify-content: space-around;
 }
 .fast{
-  border-style: double;
-  width: 494px;
-  border-color: white;
-  float: left;
+  display: grid;
 }
-.fasttext{
-  float:right;
-  width: 700px;
-  text-align: left;
-  height: 390px
-}
-.drink{
-  width: 500px;
-  height: 390px;
-  border: 1px solid white;
-  display: table-cell;
-  vertical-align: inherit;
+.container4{
   float: right;
-  border-style: double;
-  border-color: white;
 }
-.drinktext{
-  width: 600px;
-  height: 390px;
-  float:left;
-  text-shadow: border-left;
+.table{
+  border: 1px solid white;
+  width: 100%;
+  height: 200px;
+}
+#fast{
+  float: right;
+}
+.cont{
+  width: 100%;
+  background-color: red;
+  text-align: center;
+  height: 160px;
+}
+#em{
+  font-size: 22px;
+  color: white;
+}
+.footer{
+  background-color: orange;
+  height: 200px;
+  width: 100%;
+}
+#log{
+  text-align: center;
+}
+#log1{
+  text-align: center;
+}
+#logt{
+  color: white;
+  font-size: 22px;
+}
+#logob{
+  color: white;
+  font-size: 22px;
+}
+#logoa{
+  color: white;
+  
 }
