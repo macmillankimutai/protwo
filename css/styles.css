@@ -1,0 +1,64 @@
+.logo{
+  background-color: orange;
+  width: 100%;
+  height: 400px;
+  text-align: center;
+  background-image: url("../images/landing.jpg") no-repeat;
+}
+#text{
+  color: white;
+  font-size: 20px;
+}
+.images{
+  text-align: center;
+  height: 210px;
+  width: auto;
+  background-color: blue;
+}
+#break{
+  width: 20px;
+  height: 100px;
+  float: left;
+  border-right: 0px;
+}
+#dinn{
+  width: 20px;
+  height: 100px;
+  float: none;
+  border-left: 0px;
+}
+#dinn{
+  width: 20px;
+  height: 100px;
+  float: none;
+  border-left: 0px;
+  border-right: 0px;
+}
+.fast{
+  border-style: double;
+  width: 494px;
+  border-color: white;
+  float: left;
+}
+.fasttext{
+  float:right;
+  width: 700px;
+  text-align: left;
+  height: 390px
+}
+.drink{
+  width: 500px;
+  height: 390px;
+  border: 1px solid white;
+  display: table-cell;
+  vertical-align: inherit;
+  float: right;
+  border-style: double;
+  border-color: white;
+}
+.drinktext{
+  width: 600px;
+  height: 390px;
+  float:left;
+  text-shadow: border-left;
+}
