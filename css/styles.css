@@ -1,146 +1,130 @@
-
+.part one{
+  height: 390px;
+  width: 100%;
+  background-image: url(/home/macmillan/Desktop/protwo/images/landing.jpg);
+}
 .logo{
   text-align: center;
   background-image: url(/home/macmillan/Desktop/protwo/images/landing.jpg);
-  width: auto;
-  height: auto;
 }
-#logot{
+#log{
+  font-size: 24px;
   color: white;
-  font-size: 42px:
 }
-.button{
-   border: 2px solid white;
-   background-color: grey;
-   color: black;
-   padding: 14px 28px;
-   font-size: 16px;
-   cursor: pointer;
-   display: flex;
-   justify-content: flex-end;
-}
-.container2{
-  display: flex;
-  justify-content: space-around;
-}
-.container3{
-  display: inline-table;
-  justify-content: space-around;
-}
-.fast{
-  display: grid;
-}
-.container4{
-  float: right;
-}
-.table{
-  border: 1px solid white;
-  width: 100%;
-  height: 2
-}
-#content{
-  text-decoration-color: orange;
-}
-#fast{
-  float: right;
-}
-.cont{
-  width: 100%;
-  background-image: url(/home/macmillan/Desktop/protwo/images/subscribe.jpg);
+#happy{
+  width: 200px;
+  height: 50px;
+  background-color: grey;
   text-align: center;
-  height: 150px;
+  padding: 10%;
 }
-#em{
-  font-size: 22px;
+#party{
+  width: 200px;
+  height: 50px;
+  background-color: #F15A29;
+  text-align: center;
+  padding: 10%;
+}
+#break{
   color: white;
+  padding:  22%;
+  background-image: url(/home/macmillan/Desktop/protwo/images/breakfast.jpg);
+  text-align: center;
+}
+#lun{
+  color: white;
+  padding:  22%;
+  background-image: url(/home/macmillan/Desktop/protwo/images/dinner2.jpg);
+  text-align: center;
+}
+#din{
+  color: white;
+  padding:  22%;
+  background-image: url(/home/macmillan/Desktop/protwo/images/dinner.jpg);
+  text-align: center;
+}
+#fasttext{
+  text-align: left;
 }
 .footer{
-  background-color: orange;
-  height: 280px;
-  width: 100%;
+  background-color: #F15A29;
+  height: 200px;
 }
 #log{
   text-align: center;
 }
+#logoa{
+  text-align: center;
+  color: white;
+  font-size: 12px;
+}
 #log1{
   text-align: center;
-}
-#logt{
-  color: white;
-  font-size: 50px;
-}
-#logob{
-  color: white;
   font-size: 22px;
-}
-#logoa{
   color: white;
 }
-.cont2{
-  background-image: url(/home/macmillan/Desktop/protwo/images/foodsBg.jpg);
-  height: 290px;
+.cont{
+  height: 160px;
+  background-image: url(/home/macmillan/Desktop/protwo/images/subscribe.jpg);
 }
-
-.ken{
-   float: left;
-}
-.bug{
-  float: center;
-}
-.cen{
-  float: auto;
-}
-.btn {
-  border: 2px solid black;
-  background-color: white;
-  color: black;
-  padding: 14px 28px;
-  font-size: 16px;
-  cursor: pointer;
-  display: block;
-
-}
-.happy {
-  border-color: white;
-  color: green;
-  width: 100%;
-  height: 100px;
-}
-.party{
-  border-color: white;
-  color:green;
-  width: 100%;
-  height: 100px;
-}
-.party:hover{
-  background: orange;
-  color: purple;
-}
-.image{
-  display: flex;
-  width: 80%;
-  float: left;
-  height: 100%;
-}
-#top{
-  display: flex;
-  width: 100%;
-}
-.src{
-  margin: 10px;
+.form-group{
   text-align: center;
-.paragraph{
-  float: left;
-}
-#p1{
-  width: 200px;
-  height: auto;
-}
-.paragraph{
-  height: auto;
-  width: auto;
-  float: right;
-}
-#text{
+  color: white;
   font-size: 22px;
+}
+#email{
+  text-align: center;
+}
+.t{
+   box-sizing: border-box;
+   text-align: center;
+   border: 20px solid black;
+   box-shadow: 1px 1px 1px 1px grey;
+}
+#fast1{
+  box-sizing: border-box;
+ border: 20px solid white;
+ box-shadow: 1px 1px 1px 1px grey;
+ margin-left:20px;
+ height:420px;
+ width:530px;
+ position: relative;
+}
+#drink1{
+  box-sizing: border-box;
+ border: 20px solid white;
+ box-shadow: 1px 1px 1px 1px grey;
+ margin-left:20px;
+ height:420px;
+ width:540px;
+ position: relative;
+}
+#drinktext{
+  box-sizing: border-box;
+ border: 20px solid white;
+ box-shadow: 1px 1px 1px 1px white;
+ margin-left:20px;
+ height:200px;
+ width:540px;
+ flex-direction: row;
+ position: static;
+}
+#fasttext{
+  box-sizing: border-box;
+ border: 20px solid white;
+ box-shadow: 1px 1px 1px 1px white;
+ margin-left:20px;
+ height:200px;
+ width:530px;
+
+}
+.center{
+  box-sizing: border-box;
+ border: 20px solid white;
+ box-shadow: 1px 1px 1px 1px grey;
+ margin-left:20px;
+ height:200px;
+ width:530px;
+ flex-flow: column;
+ position: relative;
 }
