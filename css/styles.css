@@ -1,17 +1,23 @@
 
 .logo{
   text-align: center;
-  background-color: orange;
+  background-image: url(/home/macmillan/Desktop/protwo/images/landing.jpg);
   width: auto;
-  height: 400px;
+  height: auto;
 }
 #logot{
   color: white;
   font-size: 42px:
 }
 .button{
-  display: flex;
-  justify-content: space-around;
+   border: 2px solid white;
+   background-color: grey;
+   color: black;
+   padding: 14px 28px;
+   font-size: 16px;
+   cursor: pointer;
+   display: flex;
+   justify-content: flex-end;
 }
 .container2{
   display: flex;
@@ -30,16 +36,19 @@
 .table{
   border: 1px solid white;
   width: 100%;
-  height: 200px;
+  height: 2
+}
+#content{
+  text-decoration-color: orange;
 }
 #fast{
   float: right;
 }
 .cont{
   width: 100%;
-  background-color: blue;
+  background-image: url(/home/macmillan/Desktop/protwo/images/subscribe.jpg);
   text-align: center;
-  height: 160px;
+  height: 150px;
 }
 #em{
   font-size: 22px;
@@ -47,7 +56,7 @@
 }
 .footer{
   background-color: orange;
-  height: 200px;
+  height: 280px;
   width: 100%;
 }
 #log{
@@ -58,7 +67,7 @@
 }
 #logt{
   color: white;
-  font-size: 22px;
+  font-size: 50px;
 }
 #logob{
   color: white;
@@ -66,5 +75,72 @@
 }
 #logoa{
   color: white;
+}
+.cont2{
+  background-image: url(/home/macmillan/Desktop/protwo/images/foodsBg.jpg);
+  height: 290px;
+}
 
+.ken{
+   float: left;
+}
+.bug{
+  float: center;
+}
+.cen{
+  float: auto;
+}
+.btn {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: block;
+
+}
+.happy {
+  border-color: white;
+  color: green;
+  width: 100%;
+  height: 100px;
+}
+.party{
+  border-color: white;
+  color:green;
+  width: 100%;
+  height: 100px;
+}
+.party:hover{
+  background: orange;
+  color: purple;
+}
+.image{
+  display: flex;
+  width: 80%;
+  float: left;
+  height: 100%;
+}
+#top{
+  display: flex;
+  width: 100%;
+}
+.src{
+  margin: 10px;
+  text-align: center;
+.paragraph{
+  float: left;
+}
+#p1{
+  width: 200px;
+  height: auto;
+}
+.paragraph{
+  height: auto;
+  width: auto;
+  float: right;
+}
+#text{
+  font-size: 22px;
 }
