@@ -43,9 +43,7 @@
   background-image: url(/home/macmillan/Desktop/protwo/images/dinner.jpg);
   text-align: center;
 }
-#fasttext{
-  text-align: left;
-}
+
 .footer{
   background-color: #F15A29;
   height: 200px;
@@ -64,7 +62,7 @@
   color: white;
 }
 .cont{
-  height: 160px;
+  height: 260px;
   background-image: url(/home/macmillan/Desktop/protwo/images/subscribe.jpg);
 }
 .form-group{
@@ -74,6 +72,7 @@
 }
 #email{
   text-align: center;
+  margin-top: 40px;
 }
 .t{
    box-sizing: border-box;
@@ -96,28 +95,32 @@
  box-shadow: 1px 1px 1px 1px grey;
  margin-left:20px;
  height:420px;
- width:540px;
- position: relative;
+ width:570px;
 }
 #drinktext{
   box-sizing: border-box;
  border: 20px solid white;
  box-shadow: 1px 1px 1px 1px white;
  margin-left:20px;
- height:200px;
+ height:420px;
  width:540px;
- flex-direction: row;
- position: static;
 }
 #fasttext{
   box-sizing: border-box;
  border: 20px solid white;
  box-shadow: 1px 1px 1px 1px white;
  margin-left:20px;
- height:200px;
+ height:420px;
  width:530px;
+ text-align: left;
+ margin-bottom: 20px;
+}
+
+.part-four {
+   margin-top: 20px;
 
 }
+
 .center{
   box-sizing: border-box;
  border: 20px solid white;
@@ -127,4 +130,24 @@
  width:530px;
  flex-flow: column;
  position: relative;
+}
+#content{
+  color: #F15A29;
+  font-size: 22px;
+}
+.col-md-6{
+  text-align: center;
+}
+#row3{
+  box-sizing: border-box;
+ border: 20px solid white;
+ box-shadow: 1px 1px 1px 1px grey;
+ width: 1200px;
+ height: 300px;
+ margin-left: 40px;
+ margin-top: 20px;
+ margin-bottom: 50px;
+}
+.btn{
+  text-align: center;
 }
